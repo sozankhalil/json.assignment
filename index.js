@@ -43,10 +43,9 @@ async function myFunction(){
                for (const data of datas.results) {
                 if ( data.status==='Alive') {
 
-                    h2.innerText='Characters who are alived';
+                    h2.innerText='Characters who are alive';
                     const div1=document.createElement('div');
                     div1.innerHTML =`<ul>
-                    <li>Id: ${data.id}</li>
                 <li>Name: ${data.name}</li>
                 <li>Character: ${data.character}</li>
                 <li>Species: ${data.species}</li>
